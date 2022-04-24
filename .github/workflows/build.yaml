@@ -28,3 +28,7 @@ jobs:
           x: false
           race: false
           buildmode: default
+      -
+        name: list artifacts
+        run: |
+          ll -ahl ${GITHUB_WORKSPACE}/build
