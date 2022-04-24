@@ -31,4 +31,4 @@ jobs:
       -
         name: list artifacts
         run: |
-          ll -ahl ${GITHUB_WORKSPACE}/build
+          ls -ahl ${GITHUB_WORKSPACE}/build
