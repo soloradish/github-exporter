@@ -37,5 +37,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-          artifacts: "build/github-exporter-*"
+          artifacts: "build/github.com/infinityworks/github-exporter-*"
           token: ${{ secrets.GITHUB_TOKEN }}
